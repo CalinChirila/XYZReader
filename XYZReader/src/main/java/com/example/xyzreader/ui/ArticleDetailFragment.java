@@ -233,7 +233,7 @@ public class ArticleDetailFragment extends Fragment implements
             Picasso.with(mPhotoView.getContext())
                     .load(mCursor.getString(ArticleLoader.Query.PHOTO_URL))
                     .into(mPhotoView);
-            
+
         } else {
             mRootView.setVisibility(View.GONE);
             titleView.setText("N/A");
